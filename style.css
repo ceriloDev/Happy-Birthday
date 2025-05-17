@@ -1,0 +1,100 @@
+body {
+    background: #E9F5BE;
+    background-image: url('popper.gif');
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.greetings {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #6F826A;
+    font-size: 2.5rem;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 25px;
+}
+
+.cake {
+    width: 250px;
+    height: 250px;
+}
+
+.img-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.present-btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #F2E2B1;
+    color: #333;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.present-btn:hover {
+    background-color: #FBFFE4;
+}
+
+.cute-cake {
+    width: 100px; 
+    height: 100px;
+}
+
+/* ✅ Responsive for small devices */
+@media (max-width: 600px) {
+    .greetings {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .message {
+        font-size: 16px;
+    }
+
+    .cake {
+        width: 160px;
+    }
+
+    .cute-cake {
+        width: 80px;
+    }
+
+    .present-btn {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+    }
+}
