@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Gift</title>
+    <style>
+        body {
+            background: #E9F5BE;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            height: 100vh;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .gift {
+            width: 250px;
+            height: 250px;
+        }
+
+        .message {
+            text-align: left;
+            margin-top: 50px;
+        }
+
+        /* ✅ Responsive for smaller screens */
+        @media (max-width: 600px) {
+         .text-img {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+         }
+ 
+         .message {
+            font-size: 16px;
+            margin-top: 15px;
+         }
+        }
+    </style>
+    </header>
+<body>
+    <div class="content">
+            <img src="surprise_heart_kiss_pop.gif" class="gift">
+            <div class="message">
+             <div>A little something straight from my heart and sealed with a kiss</div>
+               <div>— just for you on your special day. Happy Birthday!</div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
